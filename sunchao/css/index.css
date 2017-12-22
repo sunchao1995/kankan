@@ -1,0 +1,415 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+}
+
+body {
+	background: #eee;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+	font-size: 0.24rem;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+.yinyue {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	z-index: 4;
+	background-color: rgba(255, 255, 255, .5j );
+}
+
+.yinyue img {
+	width: 0.6rem;
+}
+
+.jiao {
+	position: absolute;
+	bottom: 0.3rem;
+	left: 50%;
+	z-index: 10;
+	margin-left: -0.3rem;
+}
+
+.jiao img {
+	width: 0.8rem;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.swiper-slide {
+	text-align: center;
+	background: #fff;
+	background-image: url(../img/bg.src);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+.tu1 {
+	position: absolute;
+	top: 2rem;
+	left: 50%;
+	margin-left: -2.85rem;
+}
+
+.tu1 img {
+	width: 5.7rem;
+}
+
+.tu2 {
+	margin-top: 8.8rem;
+	margin-left: -0.12rem;
+}
+
+.tu2 img {
+	width: 100%;
+}
+
+.tu3 {
+	position: absolute;
+	top: 2rem;
+	right: 1.1rem;
+}
+
+.tu3 img {
+	width: 1.32rem;
+}
+
+.tu4 {
+	position: absolute;
+	top: 3.5rem;
+	right: 50%;
+	margin-right: -1.1rem;
+}
+
+.tu4 img {
+	width: 2.2rem;
+}
+
+.tu5 {
+	position: absolute;
+	top: 5.5rem;
+	right: 1.5rem;
+}
+
+.tu5 img {
+	width: 1.25rem;
+}
+
+.zi {
+	display: inline-block;
+	position: absolute;
+	/*bottom: 4.5rem;*/
+	bottom: 250px;
+	left: 50%;
+	margin-left: -15%;
+	z-index: 3;
+	font-size: 0.28rem;
+	text-align: left;
+}
+
+.zi p {
+	margin: 0.1rem 0rem;
+}
+
+.zi2>p {
+	width: 100%;
+	position: absolute;
+	bottom: 2.8rem;
+	color: rgb(63, 161, 247);
+}
+
+.guding {
+	position: relative;
+}
+
+.bigyuan {
+	position: absolute;
+	width: 192px;
+	height: 192px;
+	top: -34px;
+	left: 91px;
+	border: 5px solid rgba(255, 255, 255, .5);
+	border-radius: 50%;
+}
+
+.xiaoyuan {
+	position: absolute;
+	width: 177.5px;
+	height: 177.5px;
+	line-height: 177.5px;
+	text-align: center;
+	color: white;
+	font-size: 0.5rem;
+	top: 7.5px;
+	left: 7px;
+	background-color: rgba(100, 200, 255, .5);
+	border-radius: 50%;
+}
+
+.zuobigyuan {
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	top: 80px;
+	left: 77px;
+	background-color: rgba(255, 255, 255, .4);
+	border-radius: 50%;
+}
+
+.youbigyuan {
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	top: 80px;
+	right: 77px;
+	background-color: rgba(255, 255, 255, .4);
+	border-radius: 50%;
+}
+
+.youxiaoyuan {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: 130px;
+	left: 220px;
+	background-color: rgba(100, 200, 255, .5);
+	border-radius: 50%;
+}
+
+.zuoxiaoyuan {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: 130px;
+	right: 220px;
+	background-color: rgba(100, 200, 255, .5);
+	border-radius: 50%;
+}
+
+.bottomyuan {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	top: 150px;
+	left: 173px;
+	background-color: rgba(255, 255, 255, .4);
+	border-radius: 50%;
+}
+
+.main1 {
+	width: 85%;
+	height: 35%;
+	margin-top: 4rem;
+	margin-left: 0.5rem;
+	background-color: rgba(100, 200, 255, .5);
+}
+
+.bian {
+	position: absolute;
+	right: 0.4rem;
+	top: 1.2rem;
+}
+
+.bian img {
+	width: 0.07rem;
+}
+
+.heng {
+	position: absolute;
+	top: 4rem;
+	left: 0.7rem;
+	height: 32%;
+	border: 1px solid white;
+}
+
+.shu {
+	width: 80%;
+	position: absolute;
+	top: 4.2rem;
+	left: 0.5rem;
+	border: 1px solid white;
+}
+
+.main2 {
+	text-align: left;
+	position: absolute;
+	top: 4.5rem;
+	left: 1rem;
+	color: white;
+	font-size: 0.3rem;
+}
+
+.main2 p {
+	margin: 10px 0px;
+}
+
+.tou {
+	position: absolute;
+	top: 4.6rem;
+	right: 1rem;
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0px 0px 30px black;
+}
+
+.tou img {
+	width: 1.8rem;
+}
+
+.kuai {
+	position: absolute;
+	bottom: -0.5rem;
+	right: -0.5rem;
+	width: 290px;
+	height: 290px;
+	background-color: rgba(100, 200, 255, .2);
+	transform: rotate(45deg);
+}
+
+.kuaitu {
+	position: absolute;
+	bottom: -0.5rem;
+	right: 0.5rem;
+	transform: rotate(45deg);
+}
+
+.kuaizi {
+	text-align: left;
+	color: white;
+	position: absolute;
+	bottom: 2.5rem;
+	right: 1.5rem;
+}
+
+.kuaizi p {
+	margin: 10px 0px;
+}
+
+.hengbian {
+	position: absolute;
+	bottom: 1rem;
+}
+
+.hengbian img {
+	width: 100%;
+}
+.title{
+	position: absolute;
+	top: 3.5rem;
+	left: 50%;
+	margin-left: -3.3rem;
+	
+}
+.title img{
+	width: 6.89rem;
+}
+.titlezi{
+	color: white;
+	position: absolute;
+	top: 3.8rem;
+	left: 50%;
+	margin-left: -32%;
+	font-size: 0.3rem;
+}
+.main3{
+	position: absolute;
+	bottom: 1rem;
+	width: 90%;
+	left: 5.5%;
+}
+.main3 img{
+	width: 100%;
+}
+.tiao{
+	position: absolute;
+	top: 6rem;
+	color: white;
+	width: 80%;
+	font-size: 0.35rem;
+}
+.tiao1{
+	position: absolute;
+	top: 8rem;
+	color: white;
+	width: 80%;
+	font-size: 0.35rem;
+}
+.tiao2{
+	position: absolute;
+	top: 10rem;
+	color: white;
+	width: 80%;
+	font-size: 0.35rem;
+}
+.xiaokuai{
+	width: 2rem;
+	position: absolute;
+	text-align: left;
+	top: 0rem;
+	left: 1rem;
+	height: 2rem;
+	display: inline-block;
+	background-color: rgba(100, 200, 255, .2);
+	transform: rotate(45deg);
+}
+.zong{
+	position: absolute;
+	top: 0.8rem;
+	left: 1.7rem;
+}
+.fen{
+	position: absolute;
+	top: 0.8rem;
+	left: 4rem;
+	
+}
+.box{
+	color: white;
+	position: absolute;
+	top: 4rem;
+}
+.boxtiao{
+	position: relative;
+}
+.boxtiao img{
+	width: 90%;
+	margin-left: 0.25rem;
+}
+.boxli{
+	width: 100%;
+	position: absolute;
+	top: 0.5rem;
+	left: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
